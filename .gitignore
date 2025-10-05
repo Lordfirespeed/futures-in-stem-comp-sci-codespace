@@ -25,6 +25,9 @@
 ## GitHub specific
 !.github/
 
+# Workspace VSCode settings
+!/.vscode
+
 ## Sources
 !src
 !tests
