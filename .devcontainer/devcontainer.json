@@ -1,5 +1,13 @@
 {
   "name": "Futures in STEM - Comp. Sci",
   "image": "ghcr.io/lordfirespeed/futures-in-stem-comp-sci-2025:latest",
-  "remoteUser": "student"
+  "remoteUser": "student",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
 }
