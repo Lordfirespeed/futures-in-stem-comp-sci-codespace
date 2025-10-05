@@ -1,0 +1,41 @@
+# Exclude everything
+/*
+
+## Include subprojects, exclude contents
+!/project-*
+/project-*/*
+
+# Specific includes
+
+## IDE configuration
+!/.devcontainer
+!.editorconfig
+
+## Markdowns
+!*.md
+!/LICENSE
+!/licenses
+
+## important Git files
+!.gitmodules
+!.gitignore
+!.gitattributes
+!.git-blame-ignore-revs
+
+## GitHub specific
+!.github/
+
+## Sources
+!src
+!tests
+!scripts
+
+## Python caches/compiled files
+__pycache__/
+*.py[oc]
+*.egg-info
+
+# Explicit exceptions/ignores
+**.user
+**.local
+!**.template.*.user
