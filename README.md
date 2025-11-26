@@ -27,6 +27,8 @@ Here's how:
 1. Head over to https://github.com/codespaces.
 2. Click the three dots at the right end of your codespace's tile and choose 'Stop codespace'.
    ![Stop codespace](.github/readme/stop-codespace.png)
+3. Click the three dots at the right end of your codespace's tile and choose 'Auto-delete codespace' to disable codespace auto-deletion.
+   If you don't do this, your codespace will be deleted after 30 days of inactivity and you'll lose any work you didn't commit and push using Git.
 
 ## Resuming your codespace
 1. Head over to https://github.com/codespaces.
